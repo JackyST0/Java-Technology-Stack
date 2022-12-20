@@ -1,12 +1,12 @@
-### REDIS:
+### REDIS：
 
-#### 什么是Redis:
+#### 什么是Redis：
 * Redis 是一款内存高速缓存数据库。Redis 全称为：Remote Dictionary Server（远程词典服务），使用 C 语言编写，Redis 是一个 key-value 存储系统（键值存储系统），是一个基于内存的键值型 NoSQL 数据库，支持丰富的数据类型，如：String、list、set、zset、hash。
 * Redis 是一种支持 key-value 等多种数据结构的存储系统。可用于缓存，事件发布或订阅，高速队列等场景。支持网络，提供字符串，哈希，列表，队列，集合结构直接存取，基于内存，可持久化。
 
 ---
 
-#### 为什么要使用Redis:
+#### 为什么要使用Redis：
 * ##### 读写性能优异
   Redis 能读的速度是 110000 次 /s, 写的速度是 81000 次 /s。
 * ##### 数据类型丰富
@@ -29,32 +29,32 @@
 * Redis 是一个基于 key-value 数据类型的非关系型数据库，key 是一般的 String 类型，不过 value 却可以是多种多样的数据类型：
 ![Redis](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Redis%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
 
-##### String:
+##### String：
 ![string](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/string.png)
 ```
 SETEX 命令可用于解决手机验证码登录的问题
 SETNX 命令可用于解决分布式锁问题
 ```
 
-##### Hash:
+##### Hash：
 ![hash](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/hash.png)
 
-##### List:
+##### List：
 ![list](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/list.png)
 ```
 List 数据类型的使用场景一般是可以去实现一个任务队列 
 ```
 
-##### Set:
+##### Set：
 ![set](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/set.png)
 
-##### ZSet:
+##### ZSet：
 ![zset](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/zset.png)
 ```
 Sorted Set 数据类型的使用场景一般是可以去实现各种热门的排行榜
 ```
 
-##### Common:
+##### Common：
 ![common](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/common.png)
 
 ---
