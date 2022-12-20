@@ -1,4 +1,4 @@
-### Mybatis 多表查询：
+### Mybatis 多表查询:
 * ##### 一对一:... left join ... on ... where .../... right join ... on ... where ...,association
 * ##### 多对一:... left join ... on ... where .../... right join ... on ... where ...,association(还可用分布查询)
 * ##### 一对多:... left join ... on ... where .../... right join ... on ... where ...,collection(还可用分布查询)
