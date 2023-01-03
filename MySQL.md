@@ -734,3 +734,7 @@ XOR	        逻辑异或
 <<	      左移
 >>	      右移
 ```
+
+---
+
+参考文案：[MySQL](https://www.runoob.com/mysql/mysql-tutorial.html)
