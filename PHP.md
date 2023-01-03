@@ -1435,6 +1435,10 @@ echo "</table>";
 
 ### PHP 数据库:
 ```
-其他有关 MySQL 数据库的知识请转到 “MySQL.md” 文档中中查看学习。
+其他有关 MySQL 数据库的知识请转到 “MySQL.md” 文档中查看学习。
 ```
+
+---
+
+参考文案：[PHP](https://www.runoob.com/php/php-tutorial.html)
 
