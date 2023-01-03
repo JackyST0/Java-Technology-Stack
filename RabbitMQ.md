@@ -1,4 +1,4 @@
-### RabbitMQ
+### RabbitMQ：
 
 #### MQ概述：
 * MQ全称 Message Queue（消息队列），是在消息的传输过程中保存消息的容器，也可称为存储消息的中间件。多用于分布式系统之间进行通信。
@@ -13,9 +13,9 @@
     - 异步提速：提升用户体验和系统吞吐量。
     - 削峰填谷：提高系统稳定性。
 * 劣势
-    - 系统可用性降低
-    - 系统复杂度提高
-    - 一致性问题
+    - 系统可用性降低。
+    - 系统复杂度提高。
+    - 一致性问题。
 ---
 #### RabbitMQ简介：
 ![rabbitmq1](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/RabbitMQ-1.png)
@@ -33,7 +33,7 @@
     - queue：消息队列，图中红色部分，类似一个邮箱，可以缓存消息；生产者向其中投递消息，消费者从其中取出消息。
 
 * ##### Work queues 工作队列模式
-    ![work queues](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Work%20queues.png)
+    ![work queues](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Work%20queues.png)      
 小结：
     - 在一个队列中如果有多个消费者，那么消费者之间对于同一个消息的关系是竞争的关系。
     - Work Queues 对于任务过重或任务较多情况使用工作队列可以提高任务处理的速度。例如：短信服务部署多个，只需要一个节点成功发送即可。
@@ -69,7 +69,7 @@
 
 ---
 
-#### RabbitMQ高级特性
+#### RabbitMQ高级特性：
 * ##### 消息的可靠投递
     - Confirm 确认模式、Return 退回模式
     ![confirm/return](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Confirm_Return.png)
@@ -128,7 +128,7 @@
 
 ---
 
-#### RabbitMQ应用问题
+#### RabbitMQ应用问题：
 * ##### 消息可靠性保障
     - 消息补偿机制
     ![消息补偿](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/%E6%B6%88%E6%81%AF%E8%A1%A5%E5%81%BF%E6%9C%BA%E5%88%B6.png)
