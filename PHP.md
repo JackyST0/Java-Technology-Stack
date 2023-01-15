@@ -1434,9 +1434,7 @@ echo "</table>";
 ```
 
 ### PHP 数据库:
-```
-其他有关 MySQL 数据库的知识请转到 “MySQL.md” 文档中查看学习。
-```
+- MySQL相关知识请转到：[MySQL](https://github.com/JackyST0/Java-Technology-Stack/blob/master/MySQL.md)
 
 ---
 
