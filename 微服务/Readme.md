@@ -1,9 +1,7 @@
 # 微服务技术栈
 
----
-
 ### 初识微服务
-![微服务架构]()
+![微服务架构](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.png)
 - 单体架构特点
     - 简单方便，高度耦合，扩展性差，适合小型项目。例如：学生管理系统
 - 分布式架构特点
@@ -14,9 +12,9 @@
 
 ### Dubbo、SpringCloud、SpringCloudAlibaba
 - 微服务技术对比
-![微服务技术]()
+![微服务技术](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%8A%80%E6%9C%AF.png)
 - SpringCloud
-![springcloud]()
+![springcloud](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/SpringCloud.png)
 
 ### Eureka
 - EurekaServer：服务端，注册中心
@@ -44,11 +42,11 @@
 
 ### Ribbon
 - 负载均衡拦截器
-![ribbon-负载均衡原理]()
+![ribbon-负载均衡原理](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Ribbon-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%8E%9F%E7%90%86.png)
 - 负载均衡策略
-![ribbon-负载均衡策略]()
+![ribbon-负载均衡策略](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Ribbon-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AD%96%E7%95%A5.png)
 - 饥饿加载
-![ribbon-饥饿加载]()
+![ribbon-饥饿加载](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Ribbon-%E9%A5%A5%E9%A5%BF%E5%8A%A0%E8%BD%BD.png)
 - Ribbon负载均衡规则
     - 规则接口是IRule
     - 默认实现是ZoneAvoidanceRule，根据zone选择服务列表，然后轮询
@@ -61,7 +59,7 @@
 
 ### Nacos
 - Nacos服务多级存储模型
-![nacos-服务分级存储模型]()
+![nacos-服务分级存储模型](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Nacos-%E6%9C%8D%E5%8A%A1%E5%88%86%E7%BA%A7%E5%AD%98%E5%82%A8%E6%A8%A1%E5%9E%8B.png)
     - Nacos服务分级存储模型
         - 一级是服务，例如userservice
         - 二级是集群，例如杭州或上海
@@ -91,11 +89,11 @@
 
 ### Feign
 - RestTemplate方式远程调用存在的问题
-![resttemplate]()
+![resttemplate](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/RestTemplate.png)
 - Feign的介绍
-![feign]()
+![feign](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Feign.png)
 - Feign自定义配置
-![feign-自定义配置]()
+![feign-自定义配置](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Feign-%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE.png)
     - Feign的日志配置
         - 方式一是配置文件，feign.client.config.xxx.loggerLevel
             - 如果xxx是default则代表全局
@@ -106,13 +104,13 @@
 
 ### Gateway
 - 网关的技术实现
-![gateway]()
+![gateway](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Gateway.png)
 - 网关的作用
     - 对用户请求做身份验证、权限校验
     - 将用户请求路由到微服务，并实现负载均衡
     - 对用户请求做限流
 - Gateway路由断言工厂
-![route predicate factory]()
+![route predicate factory](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Route%20Predicate%20Factory.png)
     - PredicateFactory的作用
         - 读取用户定义的断言条件，对请求做出判断
 - Gateway路由的过滤器配置
@@ -133,7 +131,7 @@
         - order值越小，优先级越高
         - 当order值一样时，顺序是defaultFilter最先，然后是局部的路由过滤器，最后是全局过滤器      
 - Gateway网关的CORS跨域配置
-![cors跨域问题处理]()
+![cors跨域问题处理](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/CORS%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86.png)
     - CORS跨域要配置的参数
         - 允许哪些域名跨域
         - 允许哪些请求头
@@ -141,7 +139,7 @@
         - 是否允许使用cookie
         - 有效期是多久
 
-##### ___以上微服务组件技术可参考 Cloud-Demo 项目___
+#### ___以上微服务组件技术可参考 Cloud-Demo 项目___
 
 ---
 
@@ -197,14 +195,14 @@
         - 数据卷挂载耦合度低，由docker来管理目录，但是目录较深，不好找
         - 目录挂载耦合度高，需要我们自己管理目录，不过目录容易寻找查看
 - Dockerfile
-![dockerfile]()
+![dockerfile](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Dockerfile.png)
     - docker build：使用dockerfile文件构建一个新镜像
     - Dockerfile的本质是一个文件，通过指令描述镜像的构建过程
     - Dockerfile的第一行必须是From，从一个基础镜像来构建
     - 基础镜像可以是基本操作系统，如Ubuntu。也可以是其他人制作好的镜像，例如：java:8-alpine
     
 - DockerCompose
-![dockercompose]()
+![dockercompose](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/DockerCompose.png)
     - docker-compose up：运行dockercompose文件创建并执行容器
     - docker-compose stop：停止执行的容器
     - docker-compose down：停止并删除执行的容器
@@ -212,7 +210,7 @@
     - docker-compose logs：查看日志
     - DockerCompose的作用：帮助我们快速部署分布式运用，无需一个个微服务去构建镜像和部署
 - 镜像仓库
-![docker registry]()
+![docker registry](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Docker%20Registry.png)
     - 推送本地镜像到仓库前必须重命名（docker tag）镜像，以镜像仓库地址为前缀
     - 镜像仓库推送前需要把仓库地址配置到docker服务的daemon.json文件中，被docker信任
     - 推送使用docker push命令
@@ -221,7 +219,7 @@
 ---
 
 ### MQ
-![mq]()
+![mq](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/MQ.png)
 - 同步通讯
     - 同步调用的优点
         - 时效性较强，可以立即得到结果
@@ -242,12 +240,12 @@
 - RabbitMQ
     - RabbitMQ相关知识请转到：[rabbitmq](https://github.com/JackyST0/Java-Technology-Stack/blob/master/RabbitMQ.md)
 
-##### ___以上MQ中间件技术可参考 Mq-Demo 项目___
+#### ___以上MQ中间件技术可参考 Mq-Demo 项目___
 
 ---
 
 ### ES
-![elk]()
+![elk](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/ELK.png)
 - 倒排索引
     - 文档和词条
         - 每一条数据就是一个文档
@@ -299,7 +297,7 @@
             - 全量修改：PUT /索引库名/_doc/文档id {json文档}
             - 增量修改：POST /索引库名/_update/文档id {"doc":{字段}}
 - RestClient
-![restclient]()
+![restclient](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/RestClient.png)
     - RestClient索引库操作的基本步骤
         - 初始化RestHighLevelClient
         - 创建XxxIndexRequest。Xxx是Create、Get、Delete
@@ -394,7 +392,7 @@
         - order：指定聚合结果排序方式
         - field：指定聚合字段
 - 自动补全
-![analyzer]()
+![analyzer](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/Analyzer.png)
     - 自定义分词器
         - 创建自定义分词器
             - 创建索引库时，在settings中配置，可以包含三部分
@@ -417,9 +415,9 @@
         - 优点：完全解决服务间耦合
         - 缺点：开启binlog增加数据库负担、实现复杂度高
 - ES集群
-![es集群结构]()
+![es集群结构](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/ES%E9%9B%86%E7%BE%A4%E7%BB%93%E6%9E%84.png)
     - ES集群职责及脑裂
-    ![es集群节点角色]()
+    ![es集群节点角色](https://raw.githubusercontent.com/JackyST0/Java-Technology-Stack/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/%E7%9B%B8%E5%85%B3%E5%9B%BE%E7%89%87/ES%E9%9B%86%E7%BE%A4%E8%8A%82%E7%82%B9%E8%A7%92%E8%89%B2.png)
         - ES集群的脑裂
             - 默认情况下，每个节点都是master eligible节点，因此一旦master节点宕机，其他候选节点会选举一个成为主节点。当主节点与其他节点网络故障时，可能发生脑裂问题
             - 为了避免脑裂，需要要求选票超过 (eligible节点数量 + 1) / 2 才能当选为主，因此eligible节点数量最好是奇数。对应配置项是discovery.zen.minimum_master_nodes，在es7.0以后，已经成为默认配置，因此一般不会发生脑裂问题
@@ -441,8 +439,8 @@
         - master宕机后，EligibleMaster选举为新的主节点
         - master节点监控分片、节点状态，将故障节点上的分片转移到正常节点，确保数据安全
 
-##### ___以上ES的DSL语法可参考 [ES-DSL.md]() 文档___
-##### ___以上ES分布式搜索技术可参考 Hotel-Demo 和 Hotel-Admin 项目___
+#### ___以上ES的DSL语法可参考 [ES-DSL.md](https://github.com/JackyST0/Java-Technology-Stack/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1/ES-DSL.md) 文档___
+#### ___以上ES分布式搜索技术可参考 Hotel-Demo 和 Hotel-Admin 项目___
 
 ---
 
