@@ -918,3 +918,7 @@ spec:
 > 小结
 > 
 > 至此，已经掌握了Namespace、Pod、Deployment、Service资源的基本操作，有了这些操作，就可以在kubernetes集群中实现一个服务的简单部署和访问了，但是如果想要更好的使用kubernetes，就需要更加深入学习这几种资源的细节和原理。
+
+---
+
+参考文案：[Kubernetes](https://www.bilibili.com/video/BV1Qv41167ck?spm_id_from=333.788.videopod.episodes&vd_source=a6541efd5c43d30c410c9e45054c9b89)
