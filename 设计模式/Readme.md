@@ -7332,6 +7332,10 @@ spring框架底层是很复杂的，进行了很深入的封装，并对外提�
 * 了解设计模式在具体的开发中的使用。
 * 以后学习spring源码，通过该案例的实现，可以降低spring学习的入门成本。
 
+---
+
+参考文案：[设计模式](https://www.bilibili.com/video/BV1Np4y1z7BU?spm_id_from=333.788.videopod.episodes&vd_source=a6541efd5c43d30c410c9e45054c9b89)
+
 
 
 
