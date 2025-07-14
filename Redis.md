@@ -187,4 +187,4 @@ Sorted Set 数据类型的使用场景一般是可以去实现各种热门的排
 
 ---
 
-参考文案：[Redis](http://blog.czk.pub/categories/Redis/)
+参考文案：[Redis](https://www.bilibili.com/video/BV1cr4y1671t/?spm_id_from=333.337.search-card.all.click&vd_source=a6541efd5c43d30c410c9e45054c9b89)
